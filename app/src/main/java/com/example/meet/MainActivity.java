@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             AppCenter.start(getApplication(), "464aa4d5-2543-4882-9696-0c3e51e15911", Analytics.class, Crashes.class);
         }
 
-        Crashes.generateTestCrash();
+       // Crashes.generateTestCrash();
     }
 
     public void clicked(View view) {
